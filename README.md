@@ -73,3 +73,19 @@ The analyzed dataset is saved locally as:
 
 ```text
 data/processed/analyzed_reviews.csv
+
+
+## Task 3: PostgreSQL Database Storage
+
+The processed review data was stored in a PostgreSQL database named `bank_reviews`.
+
+### Database Schema
+Two relational tables were created:
+
+- `banks`: stores bank metadata including bank name and app name.
+- `reviews`: stores review text, rating, review date, sentiment label, sentiment score, identified theme, and source.
+
+The schema is defined in:
+
+```text
+sql/schema.sql
