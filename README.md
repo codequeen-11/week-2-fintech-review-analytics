@@ -50,3 +50,26 @@ The `data/` folder and CSV files are excluded from GitHub using `.gitignore` to 
 ```bash
 pip install -r requirements.txt
 python scripts/scrape_reviews.py
+
+
+
+## Task 2: Sentiment and Thematic Analysis
+
+### Sentiment Analysis
+Sentiment analysis was performed using `distilbert-base-uncased-finetuned-sst-2-english` from Hugging Face Transformers. Each review was classified as positive, negative, or neutral, with a confidence score.
+
+### Thematic Analysis
+Review themes were identified using cleaned review text, keyword matching, and TF-IDF keyword extraction. The main business themes include:
+
+- Account Access Issues
+- Transaction Performance
+- App Reliability
+- User Interface & Experience
+- Customer Support
+- Feature Requests
+
+### Task 2 Outputs
+The analyzed dataset is saved locally as:
+
+```text
+data/processed/analyzed_reviews.csv
