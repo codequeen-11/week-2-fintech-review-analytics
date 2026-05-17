@@ -178,3 +178,17 @@ reports/figures/task4_monthly_sentiment_trend.png
 - Bank of Abyssinia faces the greatest opportunity for product improvement.
 - User experience and interface quality are the strongest satisfaction drivers across all banks.
 - Authentication reliability and transaction performance remain major pain points in Ethiopian fintech apps.
+## Task 3: PostgreSQL Database Storage
+
+The processed review data was stored in a PostgreSQL database named `bank_reviews`.
+
+### Database Schema
+Two relational tables were created:
+
+- `banks`: stores bank metadata including bank name and app name.
+- `reviews`: stores review text, rating, review date, sentiment label, sentiment score, identified theme, and source.
+
+The schema is defined in:
+
+```text
+sql/schema.sql
