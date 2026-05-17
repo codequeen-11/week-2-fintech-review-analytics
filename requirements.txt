@@ -1,11 +1,16 @@
+ # Scraping Google Play Store reviews
 google-play-scraper
-pandas
-pytest
 
+# Data processing
+pandas
+
+# Natural Language Processing / sentiment analysis
+nltk
 transformers
 torch
 scikit-learn
-nltk
+
+# Data visualization
 matplotlib
 seaborn
 
