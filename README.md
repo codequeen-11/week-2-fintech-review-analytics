@@ -191,6 +191,7 @@ Two relational tables were created:
 The schema is defined in:
 
 ```text
+<<<<<<< HEAD
 sql/schema.sql
 
 ## Project Structure
@@ -213,3 +214,6 @@ The project uses:
 - psycopg2-binary for PostgreSQL database connection
 - python-dotenv for managing environment variables
 - pytest for unit testing
+=======
+sql/schema.sql
+>>>>>>> fefc9cea2e1181aef358b913cd7f71379de2fc79

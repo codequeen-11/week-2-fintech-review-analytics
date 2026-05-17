@@ -14,12 +14,5 @@ scikit-learn
 matplotlib
 seaborn
 
-# Database connection
 psycopg2-binary
-
-# Environment variables
 python-dotenv
-
-# Testing
-pytest
- 
